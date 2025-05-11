@@ -2,6 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #ffa3f3;
-  --font-main: "Tuffy";
+  --*: initial;
+  
+  --color-zelena:#74C69D;
+  --color-bila:#FFF;
+  --color-cerna:#000;
+
+  --font-main: "Crimson Text";
 }
