@@ -5,16 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="w-a uto h-[586px] bg-zelena">
-      <div class="flex flex-row gap-10">
-        <div class="flex *:flex-row gap-0.75">
-          <img src="/src/assets/logo.png" alt="logo">
-          <h1 class="text-3xl justify-start text-bila font-comain font-normal  leading-[50px]">Start</h1>
-        </div>
-        <img src="/src/assets/nav.png" alt="nav">
-      </div>
-      
+  <body class="text-gray-700 font-sans">
+  <!-- Header -->
+  <header class="bg-zelena">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <a class="text-white font-bold text-xl" href="">Start</a>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#" class="text-white hover:underline">Home</a>
+        <a href="#" class="text-white hover:underline">Portfolio</a>
+        <a href="#" class="text-white hover:underline">Services</a>
+        <a href="#" class="text-white hover:underline">Contact</a>
+      </nav>
     </div>
-  </body>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-zelena py-16">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center">
+      <div class="md:w-1/2 text-white">
+        <p class="uppercase tracking-widest text-sm mb-2">Welcome</p>
+        <h1 class="text-3xl font-bold mb-4">Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos quas corporis dolore recusandae.</p>
+        <button class="bg-white text-gray-800 px-5 py-2 rounded shadow">Explore</button>
+      </div>
+      <div class="md:w-1/2">
+        <img src="assets/mainGroup.png" alt="Hero Image" class="w-full max-w-md mx-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="uppercase text-sm tracking-widest text-gray-500 mb-1">Partners</p>
+      <h2 class="text-2xl font-bold mb-4">Lorem Ipsum Dolor</h2>
+      <p class="text-gray-500 mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <div class="flex flex-wrap justify-center gap-6 items-center">
+        <img src="assets/google.png" alt="Google" class="h-8">
+        <img src="assets/microsoft.png" alt="Microsoft" class="h-8">
+        <img src="assets/airbnb.png" alt="Airbnb" class="h-8">
+        <img src="assets/facebook.png" alt="Facebook" class="h-8">
+        <img src="assets/spotify.png" alt="Spotify" class="h-8">
+      </div>
+      <button class="mt-8 bg-black text-white px-6 py-2 rounded">Learn More</button>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4 grid gap-16 md:grid-cols-2">
+      <div class="flex flex-col md:flex-row items-center">
+        <img src="assets/lidi1.png" alt="Feature 1" class="w-40 mb-6 md:mb-0 md:mr-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet consectetur</h3>
+          <p class="text-gray-500 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas quisquam obcaecati explicabo.</p>
+          <button class="bg-black text-white px-5 py-2 rounded">Learn More</button>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-center">
+        <img src="assets/lidi2.png" alt="Feature 2" class="w-40 mb-6 md:mb-0 md:mr-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet consectetur</h3>
+          <p class="text-gray-500 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas quisquam obcaecati explicabo.</p>
+          <button class="bg-black text-white px-5 py-2 rounded">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-white py-16">
+    <div class="text-center mb-12">
+      <p class="text-sm uppercase tracking-widest text-green-500">Team</p>
+      <h2 class="text-3xl font-bold">Our Talents</h2>
+      <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur Suscipit nemo hic quos, ab.</p>
+    </div>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="assets/pani1.png" alt="Peg Legge" class="w-24 h-24 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">Peg Legge</h3>
+        <p class="text-gray-500">CEO</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="assets/pani2.png" alt="Richard Guerra" class="w-24 h-24 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">Richard Guerra</h3>
+        <p class="text-gray-500">CTO</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="assets/pani3.png" alt="Alexandra Stok" class="w-24 h-24 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">Alexandra Stok</h3>
+        <p class="text-gray-500">Designer</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="assets/pani4.png" alt="Janet Bray" class="w-24 h-24 rounded-full mx-auto mb-4">
+        <h3 class="font-semibold">Janet Bray</h3>
+        <p class="text-gray-500">Developer</p>
+      </div>
+    </div>
+    <div class="text-center mt-8">
+      <button class="bg-black text-white px-6 py-2 rounded">View Team</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-zelena text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="flex space-x-4 text-sm mb-4 md:mb-0">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div>
+        <img src="assets/socky.png" alt="">
+        <p class="text-sm">&copy; Start, 2022. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
