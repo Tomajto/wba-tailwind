@@ -6,119 +6,113 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="text-gray-700 font-sans">
-  <!-- Header -->
-  <header class="bg-zelena">
+
+  <header class="bg-zelena pl-5 pr-5">
     <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-      <a class="text-white font-bold text-xl" href="">Start</a>
-      <nav class="space-x-6 hidden md:flex">
+      <div class="flex items-center space-x-4">
+        <img src="assets/logo.png" alt="logo">
+        <a class="text-white text-3xl font-medium font-['Work_Sans'] leading-9 md:text-4xl" href="">Start</a>
+      </div>
+      <nav class="space-x-6 hidden md:flex text-xl">
         <a href="#" class="text-white hover:underline">Home</a>
         <a href="#" class="text-white hover:underline">Portfolio</a>
         <a href="#" class="text-white hover:underline">Services</a>
         <a href="#" class="text-white hover:underline">Contact</a>
       </nav>
+      <img src="assets/nav.png" alt="nav" class="md:hidden block">
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="bg-zelena py-16">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center">
-      <div class="md:w-1/2 text-white">
-        <p class="uppercase tracking-widest text-sm mb-2">Welcome</p>
-        <h1 class="text-3xl font-bold mb-4">Lorem ipsum dolor sit amet consectetur</h1>
-        <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos quas corporis dolore recusandae.</p>
-        <button class="bg-white text-gray-800 px-5 py-2 rounded shadow">Explore</button>
+  <section class="bg-zelena py-16 pl-5 pr-5">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between">
+      <div class="md:w-1/2 text-white max-w-104">
+        <p class="justify-start text-white text-base font-bold font-['Work_Sans'] uppercase leading-tight tracking-[5px] mb-3.75 mt-7.5">Welcome</p>
+        <h1 class="w-80 justify-start text-white text-3xl font-bold font-['Crimson_Text'] leading-9 mb-4">Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="mb-6 justify-start text-white/75 text-base font-normal font-['Work_Sans'] leading-tight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+        <button class="bg-bila text-gray-800 text-xl font-normal font-['Work_Sans'] leading-normal w-44 h-12 px-10 py-2 rounded shadow">Explore</button>
       </div>
-      <div class="md:w-1/2">
-        <img src="assets/mainGroup.png" alt="Hero Image" class="w-full max-w-md mx-auto">
+      <div>
+        <img src="assets/mainGroup.png" alt="Hero Image" class="w-full max-w-md">
       </div>
     </div>
   </section>
 
-  <!-- Partners -->
   <section class="py-16 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="uppercase text-sm tracking-widest text-gray-500 mb-1">Partners</p>
-      <h2 class="text-2xl font-bold mb-4">Lorem Ipsum Dolor</h2>
-      <p class="text-gray-500 mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      <div class="flex flex-wrap justify-center gap-6 items-center">
-        <img src="assets/google.png" alt="Google" class="h-8">
-        <img src="assets/microsoft.png" alt="Microsoft" class="h-8">
-        <img src="assets/airbnb.png" alt="Airbnb" class="h-8">
-        <img src="assets/facebook.png" alt="Facebook" class="h-8">
-        <img src="assets/spotify.png" alt="Spotify" class="h-8">
+    <div class="mx-auto text-center">
+      <p class="text-center justify-start text-zelena text-base font-bold font-['Work_Sans'] uppercase leading-tight tracking-[5px] mb-1">Partners</p>
+      <h2 class="text-center justify-start text-black text-2xl font-bold font-['Crimson_Text'] leading-loose mb-4">Lorem Ipsum Dolor</h2>
+      <p class="text-center justify-start text-black text-xl font-normal font-['Work_Sans'] leading-normal mb-6">Lorem ipsum, dolor sit amet consectetur <br/>adipisicing elit.</p>
+      <div class="flex flex-col justify-center items-center gap-10 md:flex-row md:gap-20 flex-wrap">
+        <img src="assets/google.png" alt="Google" class="h-12.5">
+        <img src="assets/microsoft.png" alt="Microsoft" class="h-11.25">
+        <img src="assets/airbnb.png" alt="Airbnb" class="h-12.5">
+        <img src="assets/facebook.png" alt="Facebook" class="h-9.5">
+        <img src="assets/spotify.png" alt="Spotify" class="h-12.5">
       </div>
-      <button class="mt-8 bg-black text-white px-6 py-2 rounded">Learn More</button>
+      <button class="mt-8 text-white px-6 py-2 w-44 h-12 bg-neutral-800 rounded-[5px] text-xl font-normal font-['Work_Sans'] leading-normal">Learn More</button>
     </div>
   </section>
 
-  <!-- Features -->
   <section class="bg-white py-16">
-    <div class="max-w-6xl mx-auto px-4 grid gap-16 md:grid-cols-2">
-      <div class="flex flex-col md:flex-row items-center">
-        <img src="assets/lidi1.png" alt="Feature 1" class="w-40 mb-6 md:mb-0 md:mr-6">
+    <div class="max-w-6xl mx-auto px-4 flex gap-16 flex-col">
+      <div class="inline-flex justify-between flex-col lg:flex-row items-center ">
+        <img src="assets/lidi1.png" alt="Feature 1" class="mb-6 md:mb-0 md:mr-6 w-auto">
         <div>
           <h3 class="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet consectetur</h3>
-          <p class="text-gray-500 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas quisquam obcaecati explicabo.</p>
-          <button class="bg-black text-white px-5 py-2 rounded">Learn More</button>
+          <p class="text-gray-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+          <button class="text-white px-5 py-2 w-44 h-12 bg-neutral-800 rounded-[5px] text-xl font-normal font-['Work_Sans'] leading-normal">Learn More</button>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row items-center">
-        <img src="assets/lidi2.png" alt="Feature 2" class="w-40 mb-6 md:mb-0 md:mr-6">
+      <div class="inline-flex justify-between flex-col lg:flex-row-reverse items-center">
+        <img src="assets/lidi2.png" alt="Feature 2" class="mb-6 md:mb-0 md:mr-6 w-auto">
         <div>
           <h3 class="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet consectetur</h3>
-          <p class="text-gray-500 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas quisquam obcaecati explicabo.</p>
-          <button class="bg-black text-white px-5 py-2 rounded">Learn More</button>
+          <p class="text-gray-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+          <button class="text-white px-5 py-2 w-44 h-12 bg-neutral-800 rounded-[5px] text-xl font-normal font-['Work_Sans'] leading-normal">Learn More</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Team -->
-  <section class="bg-white py-16">
-    <div class="text-center mb-12">
-      <p class="text-sm uppercase tracking-widest text-green-500">Team</p>
-      <h2 class="text-3xl font-bold">Our Talents</h2>
-      <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur Suscipit nemo hic quos, ab.</p>
+  <section class="bg-white py-0 justify-center-safe flex flex-col items-center">
+    <div class="text-center mb-12 inline-flex flex-col items-center gap-4 mr-auto ml-auto max-w-6xl px-4">
+      <p class="text-center justify-start text-zelena text-base font-bold font-['Work_Sans'] uppercase leading-tight tracking-[5px]">Team</p>
+      <h2 class="text-center justify-start text-black text-2xl font-bold font-['Crimson_Text'] leading-loose">Our Talents</h2>
+      <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur <br/>adipisicing elit.</p>
     </div>
-    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <img src="assets/pani1.png" alt="Peg Legge" class="w-24 h-24 rounded-full mx-auto mb-4">
-        <h3 class="font-semibold">Peg Legge</h3>
-        <p class="text-gray-500">CEO</p>
+    <div class="md:flex-row flex flex-col gap-8 px-4 justify-center flex-wrap">
+      <div class="bg-white p-6 rounded-lg w-72 h-72 shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] text-center">
+        <img src="assets/pani1.png" alt="Peg Legge" class="w-43.75 rounded-full mx-auto mb-4">
+        <div class="flex flex-col justify-start">
+          <h3 class="text-left text-neutral-800 text-2xl font-bold font-['Crimson_Text'] leading-loose">Peg Legge</h3>
+          <p class="text-left justify-start text-neutral-800/75 text-base font-normal font-['Work_Sans'] leading-tight">CEO</p>
+        </div>
       </div>
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <img src="assets/pani2.png" alt="Richard Guerra" class="w-24 h-24 rounded-full mx-auto mb-4">
-        <h3 class="font-semibold">Richard Guerra</h3>
-        <p class="text-gray-500">CTO</p>
+      <div class="bg-white p-6 rounded-lg w-72 h-72 shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] text-center">
+        <img src="assets/pani2.png" alt="Richard Guerra" class="w-43.75 rounded-full mx-auto mb-4">
+        <h3 class="text-left text-neutral-800 text-2xl font-bold font-['Crimson_Text'] leading-loose">Richard Guerra</h3>
+        <p class="text-left justify-start text-neutral-800/75 text-base font-normal font-['Work_Sans'] leading-tight">CTO</p>
       </div>
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <img src="assets/pani3.png" alt="Alexandra Stok" class="w-24 h-24 rounded-full mx-auto mb-4">
-        <h3 class="font-semibold">Alexandra Stok</h3>
-        <p class="text-gray-500">Designer</p>
+      <div class="bg-white p-6 rounded-lg w-72 h-72 shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] text-center">
+        <img src="assets/pani3.png" alt="Alexandra Stok" class="w-43.75 rounded-full mx-auto mb-4">
+        <h3 class="text-left text-neutral-800 text-2xl font-bold font-['Crimson_Text'] leading-loose">Alexandra Stok</h3>
+        <p class="text-left justify-start text-neutral-800/75 text-base font-normal font-['Work_Sans'] leading-tight">Designer</p>
       </div>
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <img src="assets/pani4.png" alt="Janet Bray" class="w-24 h-24 rounded-full mx-auto mb-4">
-        <h3 class="font-semibold">Janet Bray</h3>
-        <p class="text-gray-500">Developer</p>
+      <div class="bg-white p-6 rounded-lg w-72 h-72 shadow-[3px_4px_12px_1px_rgba(0,0,0,0.25)] text-center">
+        <img src="assets/pani4.png" alt="Janet Bray" class="w-43.75 rounded-full mx-auto mb-4">
+        <h3 class="text-left text-neutral-800 text-2xl font-bold font-['Crimson_Text'] leading-loose">Janet Bray</h3>
+        <p class="text-left justify-start text-neutral-800/75 text-base font-normal font-['Work_Sans'] leading-tight">Developer</p>
       </div>
     </div>
     <div class="text-center mt-8">
-      <button class="bg-black text-white px-6 py-2 rounded">View Team</button>
+      <button class="w-44 h-12 bg-neutral-800 rounded-[5px] text-center justify-start text-white text-xl font-normal font-['Work_Sans'] leading-normal mb-13.5">View Team</button>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-zelena text-white py-6">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-      <div class="flex space-x-4 text-sm mb-4 md:mb-0">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-      <div>
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-5">
         <img src="assets/socky.png" alt="">
-        <p class="text-sm">&copy; Start, 2022. All rights reserved.</p>
-      </div>
+        <p class="text-right justify-start text-white text-xl font-normal font-['Work_Sans'] leading-normal">&copy; Start, 2022. All rights reserved.</p>
     </div>
   </footer>
 </body>
